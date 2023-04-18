@@ -1,0 +1,5819 @@
+
+----------------------------------------------------------------------------
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+1
+|
+D
+a
+t
+a
+I
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+I
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+S
+o
+u
+r
+c
+e
+a
+n
+d
+T
+a
+r
+g
+e
+t
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+i
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+o
+f
+t
+h
+e
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+i
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+,
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+W
+H
+E
+R
+E
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+=
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+|
+T
+h
+e
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+s
+h
+o
+u
+l
+d
+h
+a
+v
+e
+t
+h
+e
+s
+a
+m
+e
+c
+o
+u
+n
+t
+.
+
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+2
+|
+D
+a
+t
+a
+V
+a
+l
+i
+d
+a
+t
+i
+o
+n
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+V
+a
+l
+i
+d
+a
+t
+i
+o
+n
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+S
+o
+u
+r
+c
+e
+a
+n
+d
+T
+a
+r
+g
+e
+t
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+v
+a
+l
+i
+d
+a
+t
+i
+o
+n
+o
+f
+t
+h
+e
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+v
+a
+l
+i
+d
+a
+t
+i
+o
+n
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+,
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+W
+H
+E
+R
+E
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+=
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+A
+N
+D
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+I
+S
+N
+O
+T
+N
+U
+L
+L
+|
+T
+h
+e
+s
+o
+u
+r
+c
+e
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+s
+h
+o
+u
+l
+d
+n
+o
+t
+h
+a
+v
+e
+n
+u
+l
+l
+v
+a
+l
+u
+e
+s
+.
+
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+3
+|
+D
+a
+t
+a
+C
+o
+u
+n
+t
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+C
+o
+u
+n
+t
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+S
+o
+u
+r
+c
+e
+a
+n
+d
+T
+a
+r
+g
+e
+t
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+c
+o
+u
+n
+t
+o
+f
+t
+h
+e
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+c
+o
+u
+n
+t
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+,
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+W
+H
+E
+R
+E
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+=
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+|
+T
+h
+e
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+s
+h
+o
+u
+l
+d
+h
+a
+v
+e
+t
+h
+e
+s
+a
+m
+e
+c
+o
+u
+n
+t
+.
+
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+4
+|
+D
+a
+t
+a
+T
+y
+p
+e
+C
+h
+e
+c
+k
+i
+n
+g
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+T
+y
+p
+e
+C
+h
+e
+c
+k
+i
+n
+g
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+S
+o
+u
+r
+c
+e
+a
+n
+d
+T
+a
+r
+g
+e
+t
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+t
+y
+p
+e
+c
+h
+e
+c
+k
+i
+n
+g
+o
+f
+t
+h
+e
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+t
+y
+p
+e
+c
+h
+e
+c
+k
+i
+n
+g
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+,
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+W
+H
+E
+R
+E
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+=
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+A
+N
+D
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+I
+S
+N
+O
+T
+N
+U
+L
+L
+A
+N
+D
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+.
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+I
+S
+O
+F
+D
+A
+T
+A
+T
+Y
+P
+E
+S
+T
+R
+I
+N
+G
+|
+T
+h
+e
+s
+o
+u
+r
+c
+e
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+s
+h
+o
+u
+l
+d
+b
+e
+o
+f
+d
+a
+t
+a
+t
+y
+p
+e
+S
+t
+r
+i
+n
+g
+.
+
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+5
+|
+C
+a
+s
+t
+i
+n
+g
+i
+f
+S
+o
+u
+r
+c
+e
+a
+n
+d
+T
+a
+r
+g
+e
+t
+D
+a
+t
+a
+T
+y
+p
+e
+s
+a
+r
+e
+D
+i
+f
+f
+e
+r
+e
+n
+t
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+T
+y
+p
+e
+C
+a
+s
+t
+i
+n
+g
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+S
+o
+u
+r
+c
+e
+a
+n
+d
+T
+a
+r
+g
+e
+t
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+t
+y
+p
+e
+c
+a
+s
+t
+i
+n
+g
+o
+f
+t
+h
+e
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+t
+y
+p
+e
+c
+a
+s
+t
+i
+n
+g
+o
+f
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+f
+o
+r
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+A
+S
+T
+(
+C
+o
+u
+n
+t
+r
+y
+C
+o
+d
+e
+A
+S
+S
+T
+R
+I
+N
+G
+)
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+,
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+W
+H
+E
+R
+E
+X
+T
+
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+1
+|
+D
+a
+t
+a
+I
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+I
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+o
+f
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+i
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+o
+f
+t
+h
+e
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+b
+e
+t
+w
+e
+e
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+i
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+o
+f
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+b
+e
+t
+w
+e
+e
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+I
+N
+S
+E
+R
+T
+I
+N
+T
+O
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+(
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+)
+S
+E
+L
+E
+C
+T
+D
+I
+S
+T
+I
+N
+C
+T
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+;
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+;
+|
+T
+h
+e
+c
+o
+u
+n
+t
+o
+f
+r
+e
+c
+o
+r
+d
+s
+s
+h
+o
+u
+l
+d
+b
+e
+s
+a
+m
+e
+i
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+.
+
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+2
+|
+D
+a
+t
+a
+V
+a
+l
+i
+d
+a
+t
+i
+o
+n
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+V
+a
+l
+i
+d
+a
+t
+i
+o
+n
+o
+f
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+v
+a
+l
+i
+d
+a
+t
+i
+o
+n
+o
+f
+t
+h
+e
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+b
+e
+t
+w
+e
+e
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+v
+a
+l
+i
+d
+a
+t
+i
+o
+n
+o
+f
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+b
+e
+t
+w
+e
+e
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+W
+H
+E
+R
+E
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+N
+O
+T
+I
+N
+(
+S
+E
+L
+E
+C
+T
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+)
+;
+|
+T
+h
+e
+c
+o
+u
+n
+t
+o
+f
+r
+e
+c
+o
+r
+d
+s
+s
+h
+o
+u
+l
+d
+b
+e
+0
+.
+
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+3
+|
+D
+a
+t
+a
+C
+o
+u
+n
+t
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+C
+o
+u
+n
+t
+o
+f
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+c
+o
+u
+n
+t
+o
+f
+t
+h
+e
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+b
+e
+t
+w
+e
+e
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+c
+o
+u
+n
+t
+o
+f
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+b
+e
+t
+w
+e
+e
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+;
+S
+E
+L
+E
+C
+T
+C
+O
+U
+N
+T
+(
+*
+)
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+;
+|
+T
+h
+e
+c
+o
+u
+n
+t
+o
+f
+r
+e
+c
+o
+r
+d
+s
+s
+h
+o
+u
+l
+d
+b
+e
+s
+a
+m
+e
+i
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+.
+
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+4
+|
+D
+a
+t
+a
+T
+y
+p
+e
+C
+h
+e
+c
+k
+i
+n
+g
+|
+V
+a
+l
+i
+d
+a
+t
+e
+D
+a
+t
+a
+T
+y
+p
+e
+o
+f
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+|
+T
+h
+i
+s
+t
+e
+s
+t
+c
+a
+s
+e
+v
+a
+l
+i
+d
+a
+t
+e
+s
+t
+h
+e
+d
+a
+t
+a
+t
+y
+p
+e
+o
+f
+t
+h
+e
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+b
+e
+t
+w
+e
+e
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+|
+S
+t
+e
+p
+1
+:
+V
+a
+l
+i
+d
+a
+t
+e
+t
+h
+e
+d
+a
+t
+a
+t
+y
+p
+e
+o
+f
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+b
+e
+t
+w
+e
+e
+n
+s
+o
+u
+r
+c
+e
+a
+n
+d
+t
+a
+r
+g
+e
+t
+S
+t
+e
+p
+2
+:
+C
+h
+e
+c
+k
+t
+h
+e
+s
+y
+n
+t
+a
+x
+o
+f
+t
+h
+e
+q
+u
+e
+r
+y
+|
+S
+E
+L
+E
+C
+T
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+D
+a
+t
+e
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+|
+S
+E
+L
+E
+C
+T
+D
+a
+t
+a
+_
+T
+y
+p
+e
+F
+R
+O
+M
+X
+T
+N
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+;
+S
+E
+L
+E
+C
+T
+D
+a
+t
+a
+_
+T
+y
+p
+e
+F
+R
+O
+M
+f
+d
+n
+_
+i
+b
+p
+.
+M
+a
+c
+r
+o
+E
+c
+o
+n
+o
+m
+i
+c
+;
+|
+T
+h
+e
+s
+o
+u
+r
+c
+e
+d
+a
+t
+a
+t
+y
+p
+e
+s
+h
+o
+u
+l
+d
+b
+e
+s
+a
+m
+e
+a
+s
+t
+h
+e
+t
+a
+r
+g
+e
+t
+o
+n
+e
+.
+
+
+----------------------------------------------------------------------------
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+1|Data Integration|Validate Data Integration of CountryCode for Source and Target|This test case validates the data integration of the CountryCode for source and target|Step 1: Validate the data integration of CountryCode for source and target Step 2: Check the syntax of the query|SELECT CountryCode FROM XTNMacroEconomic|SELECT CountryCode FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic, fdn_ibp.MacroEconomic WHERE XTNMacroEconomic.CountryCode = fdn_ibp.MacroEconomic.CountryCode|The source and target CountryCode should have the same count.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+2|Data Validation|Validate Data Validation of CountryCode for Source and Target|This test case validates the data validation of the CountryCode for source and target|Step 1: Validate the data validation of CountryCode for source and target Step 2: Check the syntax of the query|SELECT CountryCode FROM XTNMacroEconomic|SELECT CountryCode FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic, fdn_ibp.MacroEconomic WHERE XTNMacroEconomic.CountryCode = fdn_ibp.MacroEconomic.CountryCode AND XTNMacroEconomic.CountryCode IS NOT NULL|The source CountryCode should not have null values.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+3|Data Count|Validate Data Count of CountryCode for Source and Target|This test case validates the data count of the CountryCode for source and target|Step 1: Validate the data count of CountryCode for source and target Step 2: Check the syntax of the query|SELECT COUNT(*) FROM XTNMacroEconomic|SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic, fdn_ibp.MacroEconomic WHERE XTNMacroEconomic.CountryCode = fdn_ibp.MacroEconomic.CountryCode|The source and target CountryCode should have the same count.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+4|Data Type Checking|Validate Data Type Checking of CountryCode for Source and Target|This test case validates the data type checking of the CountryCode for source and target|Step 1: Validate the data type checking of CountryCode for source and target Step 2: Check the syntax of the query|SELECT CountryCode FROM XTNMacroEconomic|SELECT CountryCode FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic, fdn_ibp.MacroEconomic WHERE XTNMacroEconomic.CountryCode = fdn_ibp.MacroEconomic.CountryCode AND XTNMacroEconomic.CountryCode IS NOT NULL AND XTNMacroEconomic.CountryCode IS OF DATATYPE STRING|The source CountryCode should be of data type String.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: CountryCode
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: CountryCode
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+5|Casting if Source and Target Data Types are Different|Validate Data Type Casting of CountryCode for Source and Target|This test case validates the data type casting of the CountryCode for source and target|Step 1: Validate the data type casting of CountryCode for source and target Step 2: Check the syntax of the query|SELECT CountryCode FROM XTNMacroEconomic|SELECT CAST(CountryCode AS STRING) FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic, fdn_ibp.MacroEconomic WHERE XT
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+            1|Data Integration|Validate Data Integration of MacroEconomicDate|This test case validates the data integration of the MacroEconomicDate for source and target|Step 1: Validate the data integration of MacroEconomicDate for source and target Step 2: Check the syntax of the query|SELECT MacroEconomicDate FROM XTNMacroEconomic|INSERT INTO fdn_ibp.MacroEconomic (MacroEconomicDate) SELECT DISTINCT MacroEconomicDate FROM XTNMacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic; SELECT COUNT(*) FROM fdn_ibp.MacroEconomic;|The count of records from source and target should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+            2|Data Validation|Validate Data Validation of MacroEconomicDate|This test case validates the data validation of the MacroEconomicDate for source and target|Step 1: Validate the data validation of MacroEconomicDate for source and target Step 2: Check the syntax of the query|SELECT MacroEconomicDate FROM XTNMacroEconomic|SELECT MacroEconomicDate FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicDate NOT IN (SELECT MacroEconomicDate FROM fdn_ibp.MacroEconomic);|The count of records from source and target should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+            3|Data Count|Validate Data Count of MacroEconomicDate|This test case validates the data count of the MacroEconomicDate for source and target|Step 1: Validate the data count of MacroEconomicDate for source and target Step 2: Check the syntax of the query|SELECT COUNT(*) FROM XTNMacroEconomic|SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic; SELECT COUNT(*) FROM fdn_ibp.MacroEconomic;|The count of records from source and target should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+            4|Data Type Checking|Validate Data Type of MacroEconomicDate|This test case validates the data type of the MacroEconomicDate for source and target|Step 1: Validate the data type of MacroEconomicDate for source and target Step 2: Check the syntax of the query|SELECT MacroEconomicDate FROM XTNMacroEconomic|SELECT MacroEconomicDate FROM fdn_ibp.MacroEconomic|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'XTNMacroEconomic' AND COLUMN_NAME = 'MacroEconomicDate'; SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'fdn_ibp.MacroEconomic' AND COLUMN_NAME = 'MacroEconomicDate';|The source data type should be same as the target one.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicDate
+Source DataType: String
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: MacroEconomicDate
+Target DataType: String
+Primary Key: PK
+Allowed Nulls: Not Null
+                        
+            5|Casting|Validate Casting of MacroEconomicDate|This test case validates the casting of the MacroEconomicDate for source and target|Step 1: Validate the casting of MacroEconomicDate for source and target Step 2: Check the syntax of the query|N/A|N/A|SELECT CAST(MacroEconomicDate AS VARCHAR(50)) FROM XTNMacroEconomic; SELECT CAST(MacroEconomicDate AS VARCHAR(50)) FROM fdn_ibp.MacroEconomic;|The source data type should be same as the target one.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: integer
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: UnemploymentLevelCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+1|Data Integration|Validate Data Integration of UnemploymentLevelCount|This test case validates the data integration of the UnemploymentLevelCount from the source to the target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|INSERT INTO fdn_ibp.MacroEconomic (UnemploymentLevelCount) SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|The source and target data counts should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: integer
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: UnemploymentLevelCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+2|Data Validation|Validate Data Validation of UnemploymentLevelCount|This test case validates the data validation of the UnemploymentLevelCount from the source to the target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT UnemploymentLevelCount FROM fdn_ibp.MacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicValue=UnemploymentLevelCount|The source and target data values should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: integer
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: UnemploymentLevelCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+3|Data Count|Validate Data Count of UnemploymentLevelCount|This test case validates the data count of the UnemploymentLevelCount from the source to the target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT COUNT(*) FROM fdn_ibp.MacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT COUNT(*) FROM XTNMacroEconomic WHERE COUNT(*)=COUNT(*) FROM fdn_ibp.MacroEconomic|The source and target data counts should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: integer
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: UnemploymentLevelCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+4|Data Type Checking|Validate Data Type of UnemploymentLevelCount|This test case validates the data type of the UnemploymentLevelCount from the source to the target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT UnemploymentLevelCount FROM fdn_ibp.MacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicValue IS INTEGER AND UnemploymentLevelCount IS DECIMAL(32,8)|The source data type should be same as the target one.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: integer
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: UnemploymentLevelCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+5|Data Casting|Validate Data Casting of UnemploymentLevelCount|This test case validates the data casting of the UnemploymentLevelCount from the source to the target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT CAST(MacroEconomicValue AS DECIMAL(32,8)) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Unemployment rate'|SELECT COUNT(*) FROM XTNMacroEconomic WHERE CAST(MacroEconomicValue AS DECIMAL(32,8
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: InflationRate​
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+1|Data Integration|Validate Data Integration of InflationRate|This test case validates the data integration of InflationRate from XTNMacroEconomic to fdn_ibp.MacroEconomic|Step 1: Validate the data integration of InflationRate from XTNMacroEconomic to fdn_ibp.MacroEconomic Step 2: Check the syntax of the query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Inflation, consumer price index - % year-on-year'|INSERT INTO fdn_ibp.MacroEconomic (InflationRate) SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Inflation, consumer price index - % year-on-year'|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Inflation, consumer price index - % year-on-year' = SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|The number of records in the source and target table should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: InflationRate​
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+2|Data Validation|Validate Data Validation of InflationRate|This test case validates the data validation of InflationRate from XTNMacroEconomic to fdn_ibp.MacroEconomic|Step 1: Validate the data validation of InflationRate from XTNMacroEconomic to fdn_ibp.MacroEconomic Step 2: Check the syntax of the query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Inflation, consumer price index - % year-on-year'|SELECT InflationRate FROM fdn_ibp.MacroEconomic|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Inflation, consumer price index - % year-on-year' = SELECT InflationRate FROM fdn_ibp.MacroEconomic|The values of InflationRate in the source and target table should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: InflationRate​
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+3|Data Count|Validate Data Count of InflationRate|This test case validates the data count of InflationRate from XTNMacroEconomic to fdn_ibp.MacroEconomic|Step 1: Validate the data count of InflationRate from XTNMacroEconomic to fdn_ibp.MacroEconomic Step 2: Check the syntax of the query|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Inflation, consumer price index - % year-on-year'|SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Inflation, consumer price index - % year-on-year' = SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|The number of records in the source and target table should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: InflationRate​
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+4|Data Type Checking|Validate Data Type Checking of InflationRate|This test case validates the data type checking of InflationRate from XTNMacroEconomic to fdn_ibp.MacroEconomic|Step 1: Validate the data type checking of InflationRate from XTNMacroEconomic to fdn_ibp.MacroEconomic Step 2: Check the syntax of the query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Inflation, consumer price index - % year-on-year'|SELECT InflationRate FROM fdn_ibp
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: PopulationCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+1|Data Integration|Validate Data Integration of Population Count|This test case validates the data integration of Population Count from XTNMacroEconomic to fdn_ibp.MacroEconomic|Step 1: Validate the data integration of Population Count from XTNMacroEconomic to fdn_ibp.MacroEconomic Step 2: Check the syntax of the query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total'|INSERT INTO fdn_ibp.MacroEconomic (PopulationCount) SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total'|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total'|The count of records in XTNMacroEconomic should be same as the count of records in fdn_ibp.MacroEconomic.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: PopulationCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+2|Data Validation|Validate Data Validation of Population Count|This test case validates the data validation of Population Count from XTNMacroEconomic to fdn_ibp.MacroEconomic|Step 1: Validate the data validation of Population Count from XTNMacroEconomic to fdn_ibp.MacroEconomic Step 2: Check the syntax of the query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total'|SELECT PopulationCount FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total' AND MacroEconomicValue = PopulationCount|The count of records in XTNMacroEconomic should be same as the count of records in fdn_ibp.MacroEconomic where the MacroEconomicValue = PopulationCount.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: PopulationCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+3|Data Count|Validate Data Count of Population Count|This test case validates the data count of Population Count from XTNMacroEconomic to fdn_ibp.MacroEconomic|Step 1: Validate the data count of Population Count from XTNMacroEconomic to fdn_ibp.MacroEconomic Step 2: Check the syntax of the query|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total'|SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total' AND COUNT(*) = COUNT(*) FROM fdn_ibp.MacroEconomic|The count of records in XTNMacroEconomic should be same as the count of records in fdn_ibp.MacroEconomic.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: PopulationCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+4|Data Type Checking|Validate Data Type of Population Count|This test case validates the data type of Population Count from XTNMacroEconomic to fdn_ibp.MacroEconomic|Step 1: Validate the data type of Population Count from XTNMacroEconomic to fdn_ibp.MacroEconomic Step 2: Check the syntax of the query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total'|SELECT PopulationCount FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Population, total' AND DataType(MacroEconomicValue) = DataType(PopulationCount)|The data type of MacroEconomicValue should be same as the data type of PopulationCount.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: PopulationCount
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+5|Data Casting
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: ConsumerPriceIndex
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+1|Data Integration|Validate Data Integration for XTNMacroEconomic and fdn_ibp.MacroEconomic|This test case validates the data integration between XTNMacroEconomic and fdn_ibp.MacroEconomic|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Consumer price index'|INSERT INTO fdn_ibp.MacroEconomic (ConsumerPriceIndex) SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Consumer price index'|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Consumer price index' = SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|The count of records in the source and target should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: ConsumerPriceIndex
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+2|Data Validation|Validate Data Validation between XTNMacroEconomic and fdn_ibp.MacroEconomic|This test case validates the data validation between XTNMacroEconomic and fdn_ibp.MacroEconomic|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Consumer price index'|SELECT ConsumerPriceIndex FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicValue = ConsumerPriceIndex|The count of records in the source and target should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: ConsumerPriceIndex
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+3|Data Count|Validate Data Count between XTNMacroEconomic and fdn_ibp.MacroEconomic|This test case validates the data count between XTNMacroEconomic and fdn_ibp.MacroEconomic|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Consumer price index'|SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Consumer price index' = SELECT COUNT(*) FROM fdn_ibp.MacroEconomic|The count of records in the source and target should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: ConsumerPriceIndex
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+4|Data Type Checking|Validate Data Type Checking between XTNMacroEconomic and fdn_ibp.MacroEconomic|This test case validates the data type checking between XTNMacroEconomic and fdn_ibp.MacroEconomic|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT MacroEconomicValue FROM XTNMacroEconomic WHERE MacroEconomicIndicator='Consumer price index'|SELECT ConsumerPriceIndex FROM fdn_ibp.MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE DataType(MacroEconomicValue) = DataType(ConsumerPriceIndex)|The data type of the source and target should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: MacroEconomicValue
+MacroEconomicIndicator
+Source DataType: Decimal(32,8)
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: fdn_ibp.MacroEconomic
+Target Column: ConsumerPriceIndex
+Target DataType: Decimal(32,8)
+Primary Key: nan
+Allowed Nulls: nan
+                        
+5|Data Casting|Validate Data Casting between XTNMacroEconomic and fdn_ibp.MacroEconomic|This test case validates the data casting between XTNMacroEconomic and fdn_ibp.MacroEconomic|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFSystemId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFSystemId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+1|Data Integration|Validate XTNDFSystemId Data Integration|This test case validates the data integration of XTNDFSystemId between source and target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT XTNDFSystemId FROM XTNMacroEconomic|SELECT XTNDFSystemId FROM MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE XTNDFSystemId IS NOT NULL = SELECT COUNT(*) FROM MacroEconomic WHERE XTNDFSystemId IS NOT NULL|The number of records should be same between source and target.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFSystemId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFSystemId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+            2|Source to Target Mapping|Validate XTNDFSystemId Source to Target Mapping|This test case validates the source to target mapping of XTNDFSystemId|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT XTNDFSystemId FROM XTNMacroEconomic|SELECT XTNDFSystemId FROM MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE XTNDFSystemId = SELECT COUNT(*) FROM MacroEconomic WHERE XTNDFSystemId|The number of records should be same between source and target.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFSystemId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFSystemId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+            3|Data Validation|Validate XTNDFSystemId Data Validation|This test case validates the data validation of XTNDFSystemId between source and target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT XTNDFSystemId FROM XTNMacroEconomic|SELECT XTNDFSystemId FROM MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE XTNDFSystemId IS NOT NULL AND XTNDFSystemId = SELECT COUNT(*) FROM MacroEconomic WHERE XTNDFSystemId IS NOT NULL AND XTNDFSystemId|The number of records should be same between source and target.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFSystemId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFSystemId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+            4|Data Count|Validate Data Count for XTNDFSystemId|This test case validates the data count of XTNDFSystemId between source and target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT COUNT(*) FROM XTNMacroEconomic|SELECT COUNT(*) FROM MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic = SELECT COUNT(*) FROM MacroEconomic|The number of records should be same between source and target.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFSystemId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFSystemId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+            5|Data Type Checking and Casting|Validate Data Type of XTNDFSystemId|This test case validates the data type of XTNDFSystemId between source and target|Step 1: Execute the source query Step 2: Execute the target query Step 3: Execute the validation query|SELECT XTNDFSystemId FROM XTNMacroEconomic|SELECT XTNDFSystemId FROM MacroEconomic|SELECT DATATYPE(XTNDFSystemId) FROM XTNMacroEconomic = SELECT DATATYPE(XTNDFSystemId) FROM MacroEconomic|The data type should be same between source and target.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFReportingUnitId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFReportingUnitId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+1|Data Integration|Validate Data Integration of XTNDFReportingUnitId|This test case validates the data integration of XTNDFReportingUnitId between source and target|Step 1: Validate the data integration of XTNDFReportingUnitId between source and target Step 2: Check the syntax of the query|SELECT XTNDFReportingUnitId FROM XTNMacroEconomic|SELECT XTNDFReportingUnitId FROM MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE XTNDFReportingUnitId IS NOT NULL = SELECT COUNT(*) FROM MacroEconomic WHERE XTNDFReportingUnitId IS NOT NULL|The count of XTNDFReportingUnitId should be same in source and target.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFReportingUnitId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFReportingUnitId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+2|Data Validation|Validate Data Validation of XTNDFReportingUnitId|This test case validates the data validation of XTNDFReportingUnitId between source and target|Step 1: Validate the data validation of XTNDFReportingUnitId between source and target Step 2: Check the syntax of the query|SELECT XTNDFReportingUnitId FROM XTNMacroEconomic|SELECT XTNDFReportingUnitId FROM MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic WHERE XTNDFReportingUnitId = SELECT COUNT(*) FROM MacroEconomic WHERE XTNDFReportingUnitId|The count of XTNDFReportingUnitId should be same in source and target.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFReportingUnitId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFReportingUnitId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+3|Data Count|Validate Data Count of XTNMacroEconomic and MacroEconomic|This test case validates the data count of XTNMacroEconomic and MacroEconomic|Step 1: Validate the data count of XTNMacroEconomic and MacroEconomic Step 2: Check the syntax of the query|SELECT COUNT(*) FROM XTNMacroEconomic|SELECT COUNT(*) FROM MacroEconomic|SELECT COUNT(*) FROM XTNMacroEconomic = SELECT COUNT(*) FROM MacroEconomic|The count of XTNMacroEconomic and MacroEconomic should be same.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFReportingUnitId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFReportingUnitId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+4|Data Type Checking|Validate Data Type of XTNDFReportingUnitId|This test case validates the data type of XTNDFReportingUnitId between source and target|Step 1: Validate the data type of XTNDFReportingUnitId between source and target Step 2: Check the syntax of the query|SELECT XTNDFReportingUnitId FROM XTNMacroEconomic|SELECT XTNDFReportingUnitId FROM MacroEconomic|SELECT DATA_TYPE FROM XTNMacroEconomic WHERE XTNDFReportingUnitId = 'nan' = SELECT DATA_TYPE FROM MacroEconomic WHERE XTNDFReportingUnitId = 'integer'|The data type of XTNDFReportingUnitId should be same in source and target.
+
+                        Source System: Silver
+Source Server: nan
+Source Database: fdn_sales_public
+Source Table: XTNMacroEconomic
+Source Column: XTNDFReportingUnitId
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNDFReportingUnitId
+Target DataType: integer
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+5|Data Casting|Validate Data Casting of XTNDFReportingUnitId|This test case validates the data casting of XTNDFReportingUnitId between source and target|Step 1: Validate the data casting of XTNDFReportingUnitId between source and target Step 2: Check the syntax of the query|SELECT XTNDFReportingUnitId FROM XTNMacroEconomic|SELECT XTNDFReportingUnitId FROM MacroEconomic|SELECT CAST(XTNDFReportingUnitId AS INTEGER) FROM XTNMacroEconomic = SELECT XTNDFReportingUnitId FROM MacroEconomic|The data casting of XTNDFReportingUnitId should be same in source and target.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+1|Data Integration|Validate Data Integration of ETL Audit Column and XTNCreatedTime|This test case validates the data integration of ETL Audit Column and XTNCreatedTime|Step 1: Validate the data integration of ETL Audit Column and XTNCreatedTime Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNCreatedTime FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL Audit Column = SELECT COUNT(*) FROM MacroEconomic WHERE XTNCreatedTime|The count of ETL Audit Column and XTNCreatedTime should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+2|Data Validation|Validate Data Validation of ETL Audit Column and XTNCreatedTime|This test case validates the data validation of ETL Audit Column and XTNCreatedTime|Step 1: Validate the data validation of ETL Audit Column and XTNCreatedTime Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNCreatedTime FROM MacroEconomic|SELECT ETL Audit Column FROM nan WHERE ETL Audit Column != SELECT XTNCreatedTime FROM MacroEconomic WHERE XTNCreatedTime|The value of ETL Audit Column and XTNCreatedTime should not be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+3|Data Count|Validate Data Count of nan and MacroEconomic|This test case validates the data count of nan and MacroEconomic|Step 1: Validate the data count of nan and MacroEconomic Step 2: Check the syntax of the query|SELECT COUNT(*) FROM nan|SELECT COUNT(*) FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE COUNT(*) = SELECT COUNT(*) FROM MacroEconomic WHERE COUNT(*)|The count of nan and MacroEconomic should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+4|Data Type Checking|Validate Data Type of ETL Audit Column and XTNCreatedTime|This test case validates the data type of ETL Audit Column and XTNCreatedTime|Step 1: Validate the data type of ETL Audit Column and XTNCreatedTime Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNCreatedTime FROM MacroEconomic|SELECT DATATYPE(ETL Audit Column) FROM nan WHERE DATATYPE(ETL Audit Column) != SELECT DATATYPE(XTNCreatedTime) FROM MacroEconomic WHERE DATATYPE(XTNCreatedTime)|The data type of ETL Audit Column and XTNCreatedTime should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+5|Data Casting|Validate Data Casting of ETL Audit Column and XTNCreatedTime|This test case validates the data casting of ETL Audit Column and XTNCreatedTime|Step 1: Validate the data casting of ETL Audit Column and XTNCreatedTime Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNCreatedTime FROM MacroEconomic|SELECT CAST(ETL Audit Column AS timestamp) FROM nan WHERE CAST(ETL Audit Column AS timestamp) != SELECT CAST(XTNCreatedTime AS timestamp) FROM MacroEconomic WHERE CAST(XTNCreatedTime AS timestamp)|The casting of ETL Audit Column and XTNCreatedTime should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+1|Data Integration|Validate Data Integrity of ETL Audit Column|This test case validates the data integrity of ETL Audit Column between source and target|Step 1: Validate the data integrity of ETL Audit Column between source and target Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNCreatedById FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL Audit Column = XTNCreatedById|The count of the ETL Audit Column should be equal in both the source and target.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+2|Data Validation|Validate Data Integrity of ETL Audit Column|This test case validates the data integrity of ETL Audit Column between source and target|Step 1: Validate the data integrity of ETL Audit Column between source and target Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNCreatedById FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL Audit Column != XTNCreatedById|The count of the ETL Audit Column should not be equal in both the source and target.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+3|Data Count|Validate Data Count of Source and Target|This test case validates the data count of source and target|Step 1: Validate the data count of source and target Step 2: Check the syntax of the query|SELECT COUNT(*) FROM nan|SELECT COUNT(*) FROM MacroEconomic|SELECT COUNT(*) FROM nan = COUNT(*) FROM MacroEconomic|The count of the source and target should be equal.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+4|Data Type Checking|Validate Data Type of ETL Audit Column|This test case validates the data type of ETL Audit Column between source and target|Step 1: Validate the data type of ETL Audit Column between source and target Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNCreatedById FROM MacroEconomic|SELECT CAST(ETL Audit Column AS string) FROM nan = XTNCreatedById FROM MacroEconomic|The data type of the ETL Audit Column should be same in both the source and target.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNCreatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+5|Data Casting|Validate Data Casting of ETL Audit Column|This test case validates the data casting of ETL Audit Column between source and target|Step 1: Validate the data casting of ETL Audit Column between source and target Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNCreatedById FROM MacroEconomic|SELECT CAST(ETL Audit Column AS string) FROM nan = XTNCreatedById FROM MacroEconomic|The data casting of the ETL Audit Column should be same in both the source and target.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+1|Data Integration|Validate Data Integration between nan and MacroEconomic|This test case validates the data integration between nan and MacroEconomic|Step 1: Validate the data integration between nan and MacroEconomic Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNUpdatedTime FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL Audit Column = (SELECT XTNUpdatedTime FROM MacroEconomic)|The count of the records should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+2|Data Validation|Validate Data Validation between nan and MacroEconomic|This test case validates the data validation between nan and MacroEconomic|Step 1: Validate the data validation between nan and MacroEconomic Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNUpdatedTime FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL Audit Column = (SELECT XTNUpdatedTime FROM MacroEconomic) AND CAST(ETL Audit Column AS timestamp) = CAST(XTNUpdatedTime AS timestamp)|The count of the records should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+3|Data Count|Validate Data Count between nan and MacroEconomic|This test case validates the data count between nan and MacroEconomic|Step 1: Validate the data count between nan and MacroEconomic Step 2: Check the syntax of the query|SELECT COUNT(*) FROM nan WHERE ETL Audit Column = (SELECT XTNUpdatedTime FROM MacroEconomic)|SELECT COUNT(*) FROM MacroEconomic WHERE XTNUpdatedTime = (SELECT ETL Audit Column FROM nan)|SELECT COUNT(*) FROM nan WHERE ETL Audit Column = (SELECT XTNUpdatedTime FROM MacroEconomic) AND COUNT(*) FROM MacroEconomic WHERE XTNUpdatedTime = (SELECT ETL Audit Column FROM nan)|The count of the records should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+4|Data Type Checking|Validate Data Type Checking between nan and MacroEconomic|This test case validates the data type checking between nan and MacroEconomic|Step 1: Validate the data type checking between nan and MacroEconomic Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNUpdatedTime FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL Audit Column = (SELECT XTNUpdatedTime FROM MacroEconomic) AND CAST(ETL Audit Column AS timestamp) = CAST(XTNUpdatedTime AS timestamp)|The count of the records should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedTime
+Target DataType: timestamp
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+5|Data Casting|Validate Data Casting between nan and MacroEconomic|This test case validates the data casting between nan and MacroEconomic|Step 1: Validate the data casting between nan and MacroEconomic Step 2: Check the syntax of the query|SELECT ETL Audit Column FROM nan|SELECT XTNUpdatedTime FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL Audit Column = (SELECT XTNUpdatedTime FROM MacroEconomic) AND CAST(ETL Audit Column AS timestamp) = CAST(XTNUpdatedTime AS timestamp)|The count of the records should be same.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+1|Data Integration|Validate Data Integration of ETL_Audit_Column and XTNUpdatedById|This test case validates the data integration of ETL_Audit_Column and XTNUpdatedById|Step 1: Validate the data integration of ETL_Audit_Column and XTNUpdatedById Step 2: Check the syntax of the query|SELECT ETL_Audit_Column FROM nan|SELECT XTNUpdatedById FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL_Audit_Column = XTNUpdatedById|The count of the validation query should be greater than 0.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+2|Data Validation|Validate Data Validation of ETL_Audit_Column and XTNUpdatedById|This test case validates the data validation of ETL_Audit_Column and XTNUpdatedById|Step 1: Validate the data validation of ETL_Audit_Column and XTNUpdatedById Step 2: Check the syntax of the query|SELECT ETL_Audit_Column FROM nan|SELECT XTNUpdatedById FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL_Audit_Column != XTNUpdatedById|The count of the validation query should be equal to 0.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+3|Data Count|Validate Data Count of nan and MacroEconomic|This test case validates the data count of nan and MacroEconomic|Step 1: Validate the data count of nan and MacroEconomic Step 2: Check the syntax of the query|SELECT COUNT(*) FROM nan|SELECT COUNT(*) FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE COUNT(*) = COUNT(*) FROM MacroEconomic|The count of the validation query should be greater than 0.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+4|Data Type Checking|Validate Data Type Checking of ETL_Audit_Column and XTNUpdatedById|This test case validates the data type checking of ETL_Audit_Column and XTNUpdatedById|Step 1: Validate the data type checking of ETL_Audit_Column and XTNUpdatedById Step 2: Check the syntax of the query|SELECT ETL_Audit_Column FROM nan|SELECT XTNUpdatedById FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL_Audit_Column != XTNUpdatedById AND DataType(ETL_Audit_Column) != DataType(XTNUpdatedById)|The count of the validation query should be equal to 0.
+
+                        Source System: nan
+Source Server: nan
+Source Database: nan
+Source Table: nan
+Source Column: ETL Audit Column
+Source DataType: nan
+Primary Key: NA
+Allowed Nulls: nan
+                        
+
+                        Target System: NA
+Target Server: NA
+Target Database: NA
+Target Table: MacroEconomic
+Target Column: XTNUpdatedById
+Target DataType: string
+Primary Key: nan
+Allowed Nulls: Not Null
+                        
+5|Data Casting|Validate Data Casting of ETL_Audit_Column and XTNUpdatedById|This test case validates the data casting of ETL_Audit_Column and XTNUpdatedById|Step 1: Validate the data casting of ETL_Audit_Column and XTNUpdatedById Step 2: Check the syntax of the query|SELECT ETL_Audit_Column FROM nan|SELECT XTNUpdatedById FROM MacroEconomic|SELECT COUNT(*) FROM nan WHERE ETL_Audit_Column != XTNUpdatedById AND DataType(ETL_Audit_Column) != DataType(XTNUpdatedById) AND CAST(ETL_Audit_Column AS DataType(XTNUpdatedById)) = XTNUpdatedById|The count of the validation query should be equal to 0.
